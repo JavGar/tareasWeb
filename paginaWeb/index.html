@@ -12,17 +12,28 @@
 			background-image: url("imag/fondo.jpg");
 			background-size: 100%;
 		}
+		nav {
+			border-style: dashed;
+		}
+		.nav1 {
+			display: inline;
+			margin: 0px;
+			padding-right: 10px;
+		}
 		header#cabeza {
 			color: white;
 			font-size: 40pt;
 		}
 		section#cuerpo {
+			border-style: dashed;
 			float:left;
 		}
 		section#enlaces {
+			border-style: dashed;
 			float: right;
 		}
 		footer#pie {
+			border-style: dashed;
 			clear: both;
 			display: block;
 		}
@@ -34,23 +45,15 @@
 	</header>
 	<nav id="navegacion">
 		<p>Barra de navegacion</p>
-		Menu1
 		<ul>
-			<li>eleMenu 1</li>
-		</ul>
-		Menu2
-		<ul>
-			<li>eleMenu 2</li>
-		</ul>
-		Menu3
-		<ul>
-			<li>eleMenu 3</li>
+			<li class="nav1">eleMenu 1</li>
+			<li class="nav1">eleMenu 2</li>
+			<li class="nav1">eleMenu 3</li>
 		</ul>
 	</nav>
 	<section id="cuerpo">
 		<p>Cuerpo de la pagina</p>
-		<br><br>/*	todo el cuerpo de la pagina	*/
-		<br><br>
+		/*	todo el cuerpo de la pagina	*/
 	</section>
 	<section id="enlaces">
 		<p>Barra de enlaces</p>
@@ -58,7 +61,6 @@
 			<li>enlace 1</li>
 			<li>enlace 2</li>
 		</ul>
-		<br>
 	</section>
 	<footer id="pie">
 		<p>Derechos de autor</p>
