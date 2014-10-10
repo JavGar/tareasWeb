@@ -1,17 +1,20 @@
 header{
 	background-image: url("../imag/encabe.jpeg");
 	background-size: 100% 100%;
+	background: linear-gradiemt(red,yellow,black,green,pink,orange,blue);
 }
 body {
 	background-image: url("../imag/fondo.jpg");
 	background-size: 100%;
+	font-size: 20px;
 }
 nav {
-	background: linear-gradient(#29044A,#487956,#289745,#654897);
+	background: radial-gradient(#29044A,#487956,#289745,#654897,#0f0f0f);
 	width: 70%;
 	margin-right: auto;
 	margin-left: auto;
 	border-radius: 10px;
+	margin-top: 50px;
 	margin-bottom: 20px;
 	font-style: italic;
 	text-align: center;
@@ -33,6 +36,7 @@ section#cuerpo {
 	float:left;
 }
 section#enlaces {
+	margin-bottom: 20px;
 	border-style: dashed;
 	float: right;
 }
@@ -40,4 +44,5 @@ footer#pie {
 	border-style: dashed;
 	clear: both;
 	display: block;
+	font-size: 10px;
 }
