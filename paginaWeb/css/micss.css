@@ -1,4 +1,4 @@
-#cabeza{
+header{
 	background-image: url("../imag/encabe.jpeg");
 	background-size: 100% 100%;
 }
@@ -7,25 +7,22 @@ body {
 	background-size: 100%;
 }
 nav {
-	border-style: dashed;
+	background: linear-gradient(#29044A,#487956,#289745,#654897);
+	width: 70%;
+	margin-right: auto;
+	margin-left: auto;
+	border-radius: 10px;
+	margin-bottom: 20px;
+	font-style: italic;
+	text-align: center;
 }
-.nav1 {
+nav li {
 	display: inline;
-	margin: 0px;
 	padding-right: 10px;
 }
-a:link {
-}
-a:hover {
-	font-size: 250%;
+nav li a:hover {
 	background-color: #00F;
-	font-style: italic;
 	color: yellow;
-}
-a:visited {
-}
-a:active {
-
 }
 header#cabeza {
 	color: white;
