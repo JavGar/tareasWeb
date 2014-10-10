@@ -6,6 +6,8 @@ header{
 body {
 	background-image: url("../imag/fondo.jpg");
 	background-size: 100%;
+	height: 80%;
+	width: 95%;
 	font-size: 20px;
 }
 nav {
@@ -22,6 +24,7 @@ nav {
 nav li {
 	display: inline;
 	padding-right: 10px;
+	text-decoration: none;
 }
 nav li a:hover {
 	background-color: #00F;
@@ -35,11 +38,18 @@ section#cuerpo {
 	border-style: dashed;
 	float:left;
 }
-section#enlaces {
+section {
 	margin-bottom: 20px;
 	border-style: dashed;
 	float: right;
 }
+
+section li {
+	display: block;
+	text-decoration: none;
+	text-transform: capitalize;
+}
+
 footer#pie {
 	border-style: dashed;
 	clear: both;
