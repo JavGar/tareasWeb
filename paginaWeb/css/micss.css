@@ -1,9 +1,9 @@
-header{
-	background-image: url("imag/encabe.jpeg");
+#cabeza{
+	background-image: url("../imag/encabe.jpeg");
 	background-size: 100% 100%;
 }
 body {
-	background-image: url("imag/fondo.jpg");
+	background-image: url("../imag/fondo.jpg");
 	background-size: 100%;
 }
 nav {
