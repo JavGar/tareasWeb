@@ -35,3 +35,7 @@ body {
 	background-image: url('../imag/tokio.jpg') !important;
 	background-size: 100%;
 }
+
+.menu>a {
+	color: yellow !important;
+}
