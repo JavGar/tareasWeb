@@ -46,3 +46,7 @@ footer {
 .menu>a {
 	color: yellow !important;
 }
+
+#mje {
+	border-right: 2px solid #fff;
+}
