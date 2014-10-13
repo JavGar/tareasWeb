@@ -1,6 +1,6 @@
 #cabeza {
 	margin-bottom: 10px;
-
+	width: 100%;
 	background-color: #000;
 }
 
@@ -17,6 +17,7 @@
 
 #footer {
 	margin: 5%;
+	padding: 1%;
 }
 
 #prin {
@@ -36,6 +37,12 @@ body {
 	background-size: 100%;
 }
 
+footer {
+	width: 100%;
+	color: #FFF;
+	background-color: #000;
+	opacity: 0.8;
+}
 .menu>a {
 	color: yellow !important;
 }
