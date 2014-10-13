@@ -8,9 +8,15 @@
 
 .jumbotron {
 	margin: 10%;
+	background-image: url('../imag/encabe.jpeg') !important;
+	background-size: 50%;
+	background-repeat: repeat-x;
 }
 
 #footer {
 	margin: 5%;
 }
 
+#prin {
+	background-image: url('imag/encabe.jpeg');
+}
