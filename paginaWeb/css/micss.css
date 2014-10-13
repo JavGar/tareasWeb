@@ -5,4 +5,9 @@
 #redes {
 	display: block;
 	float: right;
+	margin: 10%;
+}
+
+.jumbotron {
+	margin: 10%;
 }
