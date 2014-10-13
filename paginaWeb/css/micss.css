@@ -3,12 +3,14 @@
 }
 
 #redes {
-	display: block;
-	float: right;
-	margin: 10%;
+	text-align: right;
 }
 
 .jumbotron {
 	margin: 10%;
+}
+
+#footer {
+	margin: 5%;
 }
 
