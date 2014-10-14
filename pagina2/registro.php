@@ -5,6 +5,7 @@
 	<title>Registro</title>
 </head>
 <body>
+	<h1>Formulario de registro</h1>
 	<form>
 		<label for="usuario">Usuario: </label>
 		<input type="text" placeholder="usuario">
