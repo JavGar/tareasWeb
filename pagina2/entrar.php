@@ -10,18 +10,18 @@
 	<header class="jumbotron">
 		<h1>Inicio de Sesion</h1>
 	</header>
-	<form class="form-horizontal" role="form" method="post" action="">
+	<form class="form-horizontal" role="form" method="post" action="validarInicio.php">
 		<div class="form-group">
 			<label for="usuario" class="col-sm-2 control-label">Usuario: </label>
 			<div class="col-sm-10">
-				<input type="text" class="form-control" id="usuario" placeholder="Usuario">
+				<input type="text" class="form-control" name="usuario" placeholder="Usuario">
 			</div>
 		</div>
 
 		<div class="form-group">
-			<label for="contras" class="col-sm-2 control-label">Contraseña: </label>
+			<label for="pass" class="col-sm-2 control-label">Contraseña: </label>
 			<div class="col-sm-10">
-				<input type="password" class="form-control" id="contras" placeholder="Contraseña">
+				<input type="password" class="form-control" name="pass" placeholder="Contraseña">
 			</div>
 		</div>
 
