@@ -18,7 +18,7 @@
 			</div>
 			<div class="col-md-6">
 				<h2>Entrar</h2>
-				<a href="" type="button" class="btn btn-success">Ir</a>
+				<a href="entrar.php" type="button" class="btn btn-success">Ir</a>
 			</div>
 		</div>
 	</div>
