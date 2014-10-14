@@ -10,25 +10,25 @@
 	<header class="jumbotron">
 		<h1>Formulario de registro</h1>
 	</header>
-	<form class="form-horizontal" role="form">
+	<form class="form-horizontal" role="form" method="post" action="validarRegistro.php">
 		<div class="form-group">
 			<label for="usuario" class="col-sm-2 control-label">Usuario: </label>
 			<div class="col-sm-10">
-				<input type="text" class="form-control" id="usuario" placeholder="Usuario">
+				<input type="text" class="form-control" name="usuario" placeholder="Usuario">
 			</div>
 		</div>
 
 		<div class="form-group">
 			<label for="contras" class="col-sm-2 control-label">Contraseña: </label>
 			<div class="col-sm-10">
-				<input type="password" class="form-control" id="contras" placeholder="Contraseña">
+				<input type="password" class="form-control" name="pass" placeholder="Contraseña">
 			</div>
 		</div>
 
 		<div class="forn-group">
 			<label for="email" class="col-sm-2 control-label">Email: </label>
 			<div class="col-sm-10">
-				<input type="email" class="form-control" id="email" placeholder="Email">
+				<input type="email" class="form-control" name="email" placeholder="Email">
 			</div>
 		</div>
 

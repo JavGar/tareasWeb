@@ -10,7 +10,7 @@
 	<header class="jumbotron">
 		<h1>Inicio de Sesion</h1>
 	</header>
-	<form class="form-horizontal" role="form">
+	<form class="form-horizontal" role="form" method="post" action="">
 		<div class="form-group">
 			<label for="usuario" class="col-sm-2 control-label">Usuario: </label>
 			<div class="col-sm-10">
