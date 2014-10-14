@@ -6,7 +6,9 @@
 	<title>Registro</title>
 </head>
 <body>
-	<h1>Formulario de registro</h1>
+	<header class="jumbotron">
+		<h1>Formulario de registro</h1>
+	</header>
 	<form class="form-horizontal" role="form">
 		<div class="form-group">
 			<label for="usuario" class="col-sm-2 control-label">Usuario: </label>
