@@ -14,9 +14,11 @@
 		<div class="row">
 			<div class="col-md-6">
 				<h2>Regitrarse</h2>
+				<a href="registro.php" type="button" class="btn btn-success">Ir</a>
 			</div>
 			<div class="col-md-6">
 				<h2>Entrar</h2>
+				<a href="" type="button" class="btn btn-success">Ir</a>
 			</div>
 		</div>
 	</div>
