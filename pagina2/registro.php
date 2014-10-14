@@ -37,5 +37,9 @@
 			</div>
 		</div>
 	</form>
+
+	<div>
+		<a href="index.php" type="button" class="btn btn-info">Inicio</a>
+	</div>
 </body>
 </html>
