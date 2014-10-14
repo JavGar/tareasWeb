@@ -10,7 +10,7 @@
 		<h1>Bienvenido</h1>
 	</header>
 
-	<div class="jumbotron">
+	<div id="opciones" class="jumbotron">
 		<div class="row">
 			<div class="col-md-6">
 				<h2>Regitrarse</h2>
