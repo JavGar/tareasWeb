@@ -2,6 +2,7 @@
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
 	<meta charset="UTF-8">
 	<title>Registro</title>
 </head>
@@ -38,7 +39,7 @@
 		</div>
 	</form>
 
-	<div>
+	<div class="regreso">
 		<a href="index.php" type="button" class="btn btn-info">Inicio</a>
 	</div>
 </body>
