@@ -22,15 +22,15 @@
 		</div>
 	</header>
 
-	<div id="opciones" class="jumbotron">
+	<div id="mensaje" class="jumbotron">
 		<div class="row">
-			<div class="col-md-6">
-				<h2>Regitrarse</h2>
-				<a href="registro.php" type="button" class="btn btn-success">Ir</a>
+			<div class="col-md-6 presente">
+				<h2>Bienvenido</h2>
+				<br>
+				<h4>a la mejor tienda</h4>
 			</div>
 			<div class="col-md-6">
-				<h2>Entrar</h2>
-				<a href="entrar.php" type="button" class="btn btn-success">Ir</a>
+				<h2>En esta tienda encontraras lo mejor de...</h2>
 			</div>
 		</div>
 	</div>
