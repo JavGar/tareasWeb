@@ -13,7 +13,11 @@ body {
 	text-align: center;
 	margin: 10%;
 	background-color: #DBDAD5;
-	opacity: 0.7;
+}
+
+#mensaje2 {
+	margin: 10%;
+	background-color: #FFF;
 }
 
 .presente {

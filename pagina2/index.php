@@ -7,7 +7,7 @@
 	<title>Index</title>
 </head>
 <body>
-	<header class="jumbotron">
+	<header>
 		<div class="jumbotron">
 			<div class="col-lg-5" align="cemter">
 				<img src="imag/logo.jpg" alt="logo" height="150px" width="150px">
@@ -16,8 +16,8 @@
 				<li class="active"><a href="index.php">Inicio</a></li>
 				<li><a href="">Productors</a></li>
 				<li><a href=""></a>Contacto</li>
-				<li><a href=""></a>Login</li>
-				<li><a href=""></a>Nosotros</li>
+				<li><a href="login.php"></a>Login</li>
+				<li><a href="nosotros.html"></a>Nosotros</li>
 			</div>
 		</div>
 	</header>
