@@ -24,7 +24,7 @@
 
 	<div id="mensaje" class="jumbotron">
 		<div class="row">
-			<div class="col-md-6 presente">
+			<div class="col-md-6">
 				<h2>Bienvenido</h2>
 				<br>
 				<h4>a la mejor tienda</h4>

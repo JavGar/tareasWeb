@@ -1,7 +1,7 @@
 body {
 	background-color: #0080FF;
 	background-image: url('../imag/fondo.jpg');
-	background-position: 50% 200%;
+	background-position: 50px 150px;
 	background-repeat: no-repeat;
 }
 
@@ -18,4 +18,9 @@ body {
 
 .presente {
 	color: #000;
+	background-color: #FFF;
+}
+
+#logeo {
+	 margin: 10%;
 }
