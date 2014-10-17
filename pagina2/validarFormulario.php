@@ -28,6 +28,21 @@
 				<!--registro de usuarios-->
 				<div class="col-lg-5 presente">
 					<h2>Registro</h2>
+					<?php 
+						if (isset($_POST["usuario"]) && isset($_POST["pass"]) && isset($_POST["email"])) {
+							if (($_POST["usuario"] != "") && ($_POST["pass"] != "") && ($_POST["email"] != "")) {
+								echo "<h4 class='alert-success'>Usuario agregado</h4>";
+							}
+							else
+							{
+								echo "<h4 class='alert-danger'>No hay datos</h4>";
+							}
+						}
+						else
+						{
+							echo "<h4 class='alert-warning'>Formulario invalido</h4>";
+						}
+					 ?>
 					<form class="form-horizontal" role="form" method="post" action="validarFormulario.php">
 						<div class="form-group">
 							<label for="usuario" class="col-sm-2 control-label">Usuario: </label>
@@ -61,6 +76,21 @@
 				<!--inicio de sesion-->
 				<div class="col-lg-5 presente">
 					<h2>Iniciar Sesión</h2>
+					<?php 
+						if (isset($_POST["usuario"]) && isset($_POST["pass"])) {
+							if (($_POST["usuario"] == "admin") && ($_POST["pass"] == "root")) {
+								echo "<h4 class='alert-success'>Bienvenido administrador</h4>";
+							}
+							else
+							{
+								echo "<h4 class='alert-danger'>Datos erroneos</h4>";
+							}
+						}
+						else
+						{
+							echo "<h4 class='alert-warning'>Formulario invalido</h4>";
+						}
+					?>
 					<form class="form-horizontal" role="form" method="post" action="validarFormulario.php">
 						<div class="form-group">
 						    <label for="usuario" class="col-sm-2 control-label">Usuario: </label>
@@ -83,9 +113,7 @@
 						</div>
 					</form>
 				</div>
-
 			</div>
 		</div>
-	
 </body>
 </html>
