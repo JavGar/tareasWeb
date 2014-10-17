@@ -2,12 +2,24 @@
 <html>
 <head>
 	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
 	<meta charset="UTF-8">
 	<title>Index</title>
 </head>
 <body>
 	<header class="jumbotron">
-		<h1>Bienvenido</h1>
+		<div class="jumbotron">
+			<div class="col-lg-5" align="cemter">
+				<img src="imag/logo.jpg" alt="logo" height="150px" width="150px">
+			</div>
+			<div class="col-lg-7 nav nav-pills">
+				<li class="active"><a href="index.php">Inicio</a></li>
+				<li><a href="">Productors</a></li>
+				<li><a href=""></a>Contacto</li>
+				<li><a href=""></a>Login</li>
+				<li><a href=""></a>Nosotros</li>
+			</div>
+		</div>
 	</header>
 
 	<div id="opciones" class="jumbotron">
